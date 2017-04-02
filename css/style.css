@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+  /* navbar section */
+
+#header { 
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    margin: auto;
+}
+#header img {
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+#header ul {
+    float: right;
+    margin-right: 20px;
+}
+#header ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+#header a {
+    color: seashell;
+}
+
+  /*Our Mission section */
+
+#our {
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../resources/img-mission-background.jpg);
+    background-position: cover;
+    display: flex;
+    align-items: center;
+}
+#center {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+  /* Tea of the Month section */
+
+#tea_month {
+    width: 1000px;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#tea {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.tea_images img {
+    height: 200px;
+    width: 300px;
+}
+.tea_images h4 {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+  /*Locations section */
+
+#locations_container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../resources/img-locations-background.jpg);
+    background-position: cover;
+
+}
+#locations_container h2 {
+    margin: 50px auto 15px auto;
+    
+}
+#locations {
+    width: 1000px;
+    height: 500px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: black;
+    margin: 15px;
+}
+
+  /* Footer */
+
+.footer {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
